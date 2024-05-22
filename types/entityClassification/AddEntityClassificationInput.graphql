@@ -1,0 +1,11 @@
+input AddEntityClassificationInput {
+  suggestedFatcaClassification: String
+  suggestedCrsClassification: String
+  fatcaConfidenceRate: String
+  crsConfidenceRate: String
+  fatcaRationale: String
+  crsRationale: String
+  fatcaConfidenceRational: String
+  crsConfidenceRational: String
+  entityInformationId: String
+}

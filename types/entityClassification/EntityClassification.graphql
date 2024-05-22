@@ -1,0 +1,16 @@
+type EntityClassification {
+  id: ID
+  suggestedFatcaClassification: String
+  suggestedCrsClassification: String
+  fatcaConfidenceRate: String
+  crsConfidenceRate: String
+  fatcaRationale: String
+  crsRationale: String
+  fatcaConfidenceRational: String
+  crsConfidenceRational: String
+  entityInformationId: String
+  createdAt: DateTime
+  createdByUserId: String
+  updatedAt: DateTime
+  updatedByUserId: String
+}

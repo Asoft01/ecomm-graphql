@@ -1,0 +1,8 @@
+extend type Mutation {
+  createOrUpdateEntityClassification(
+    data: CreateOrUpdateEntityClassificationInput!
+  ): EntityClassification!
+  addEntityClassification(entityInformationId:ID!, data:AddEntityClassificationInput!): EntityClassification!
+  updateEntityClassification(id:ID!, data:UpdateEntityInformationInput!): EntityClassification!
+  deleteEntityClassification(id: ID!): ID!
+}

@@ -1,0 +1,9 @@
+extend type Query {
+  entityClassification(id: ID!): EntityClassification!
+  entityClassfications(
+    search: String
+    orderBy: [OrderByClause!]
+    skip: Int
+    take: Int
+  ): [EntityClassification!]
+}
